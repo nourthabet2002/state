@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+
+}
+ .cards{
+  display:flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border-radius: 2px;
+  row-gap:15px;
+  gap:10px;
+  width: 550px;
+  margin-top: 5px;
+  padding: 10px;
+  
+}.card{
+  background-color: rgb(200, 195, 209);
+  
+  
+} .cards img{
+  width: 200px;
+}.modal{
+  position:fixed;
+  width:100%;
+  height:100%;
+  background-color:rgba(0, 0, 0, 0.404);
+  left:0;
+  top:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box_modal{
+  background-color: white;
+  width: 50%;
+
+}
